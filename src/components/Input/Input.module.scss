@@ -1,0 +1,47 @@
+.input {
+    position: relative;
+
+    input {
+        width: 440px;
+        padding: 12px 16px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        border: 1px solid #979797;
+
+        &::placeholder {
+            color: #8F92A1;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .list {
+        position: absolute;
+        border: 1px solid #979797;
+        width: 100%;
+        top: 55px;
+        height: 210px;
+        overflow: auto;
+    }
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: grey;
+}
+
+@media(max-width: 768px) {
+    .input {
+
+        input {
+            width: 90vw;
+        }
+    }
+}

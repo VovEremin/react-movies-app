@@ -1,0 +1,27 @@
+.wrapper {
+    margin-bottom: 220px;
+
+    form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 768px) {
+    .wrapper {
+
+        form {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .filters {
+        margin-bottom: 20px;
+    }
+}

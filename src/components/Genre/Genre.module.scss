@@ -1,0 +1,39 @@
+.genre {
+    border: 1px solid #979797;
+    width: 120px;
+    margin-left: 15px;
+    position: relative;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.topSide {
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #171717;
+}
+
+.arrow {
+    img {
+        width: 15px;
+        height: 9px;
+    }
+}
+
+.bottomSide {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 130px;
+}

@@ -1,0 +1,39 @@
+.item {
+    padding: 13px 13px 0;
+    &:last-child {
+        padding-bottom: 13px;
+    }
+}
+
+.topSide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.genre {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #777777;
+}
+
+.rating {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.star {
+
+    img {
+
+    }
+}

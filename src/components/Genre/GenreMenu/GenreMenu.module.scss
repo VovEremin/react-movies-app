@@ -1,0 +1,21 @@
+.menu {
+    border: 1px solid #979797;
+    padding: 13px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    input {
+        margin-bottom: 3px;
+    }
+}
+
+.any, .genre {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-left: 5px;
+}
